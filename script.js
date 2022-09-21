@@ -48,12 +48,12 @@ const fruits = ["apple","orange","banana","pineapple"]
 
 
 //! remove letter 'a' from a String or an Array
-let stringFruits='';
-for (let i = 0; i <fruits.length; i++) {
-    stringFruits = stringFruits+=fruits[i]
-}
+// let stringFruits='';
+// for (let i = 0; i <fruits.length; i++) {
+//     stringFruits = stringFruits+=fruits[i]
+// }
 // string
-console.log("original string", stringFruits)
+// console.log("original string", stringFruits)
 
 //! USING REGEX
 // let newString=stringFruits.replace(/a/g,'A')
